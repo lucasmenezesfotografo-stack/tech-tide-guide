@@ -158,9 +158,6 @@ function ProductPage() {
             >
               Ver oferta no Mercado Livre <ExternalLink className="size-4" />
             </a>
-            <p className="text-[11px] text-muted-foreground text-center">
-              Link de afiliado · sem custo adicional para você
-            </p>
           </div>
         </section>
 
