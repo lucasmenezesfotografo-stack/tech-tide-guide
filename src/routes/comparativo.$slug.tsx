@@ -3,7 +3,7 @@ import { ArrowRight, Trophy } from "lucide-react";
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
 import { ScoreBadge, BadgeChip } from "@/components/site/score-badge";
-import { findComparison, findProduct, formatBRL } from "@/lib/mock-data";
+import { findComparison, findProduct, formatBRL, type Comparison, type Product } from "@/lib/mock-data";
 
 export const Route = createFileRoute("/comparativo/$slug")({
   loader: ({ params }) => {
@@ -43,7 +43,7 @@ export const Route = createFileRoute("/comparativo/$slug")({
 });
 
 function ComparisonPage() {
-  const { cmp, a, b } = Route.useLoaderData();
+  const { cmp, a, b } = Route.useLoaderData() as { cmp: Comparison; a: Product; b: Product };
   const aWins = cmp.winnerBy.filter((w) => w.winnerSlug === a.slug).length;
   const bWins = cmp.winnerBy.filter((w) => w.winnerSlug === b.slug).length;
   const overallWinner = a.score >= b.score ? a : b;
