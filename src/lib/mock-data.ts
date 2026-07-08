@@ -130,7 +130,7 @@ export const products: Product[] = [
     ],
     affiliateUrl: "#",
     gradient: g("#0f172a", "#0f4c81"),
-    imageUrl: tvGeneric,
+    imageUrl: "",
   },
   {
     slug: "samsung-du7700-50",
@@ -164,7 +164,7 @@ export const products: Product[] = [
     ],
     affiliateUrl: "#",
     gradient: g("#0f172a", "#1e3a8a"),
-    imageUrl: tvLifestyle,
+    imageUrl: "",
   },
   {
     slug: "lg-ur8750-50",
@@ -197,7 +197,7 @@ export const products: Product[] = [
     ],
     affiliateUrl: "#",
     gradient: g("#111827", "#334155"),
-    imageUrl: tvGeneric,
+    imageUrl: "",
   },
   {
     slug: "philco-ptv50g70",
@@ -229,7 +229,7 @@ export const products: Product[] = [
     ],
     affiliateUrl: "#",
     gradient: g("#1e293b", "#475569"),
-    imageUrl: tvLifestyle,
+    imageUrl: "",
   },
   {
     slug: "aoc-s5195-50",
@@ -261,7 +261,7 @@ export const products: Product[] = [
     ],
     affiliateUrl: "#",
     gradient: g("#0f172a", "#1e40af"),
-    imageUrl: tvGeneric,
+    imageUrl: "",
   },
   {
     slug: "philips-50pug7908",
@@ -294,7 +294,7 @@ export const products: Product[] = [
     ],
     affiliateUrl: "#",
     gradient: g("#1a1a2e", "#2563eb"),
-    imageUrl: tvLifestyle,
+    imageUrl: "",
   },
   {
     slug: "samsung-du7700-43",
@@ -325,7 +325,7 @@ export const products: Product[] = [
     ],
     affiliateUrl: "#",
     gradient: g("#0f172a", "#1e3a8a"),
-    imageUrl: tvGeneric,
+    imageUrl: "",
   },
   {
     slug: "sony-a95l-65",
