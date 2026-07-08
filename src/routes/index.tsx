@@ -4,7 +4,6 @@ import {
   ArrowRight,
   ExternalLink,
   ShieldCheck,
-  Search,
   Star,
   BadgeCheck,
   Timer,
@@ -324,5 +323,3 @@ function TrustStat({ n, label }: { n: string; label: string }) {
   );
 }
 
-// unused imports guard (Search kept for future search UI)
-void Search;
