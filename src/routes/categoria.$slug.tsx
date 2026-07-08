@@ -4,7 +4,7 @@ import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
 import { ProductTile } from "@/components/site/product-tile";
 import { SectionHeader } from "@/components/site/section-header";
-import { findCategory, productsByCategory } from "@/lib/mock-data";
+import { findCategory, productsByCategory, type Category, type Product } from "@/lib/mock-data";
 
 export const Route = createFileRoute("/categoria/$slug")({
   loader: ({ params }) => {
@@ -48,7 +48,7 @@ export const Route = createFileRoute("/categoria/$slug")({
 });
 
 function CategoryPage() {
-  const { category, items } = Route.useLoaderData();
+  const { category, items } = Route.useLoaderData() as { category: Category; items: Product[] };
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
@@ -69,7 +69,7 @@ function CategoryPage() {
           <section>
             <SectionHeader eyebrow="Mais bem avaliados" title={`Melhores ${category.name.toLowerCase()} testados`} />
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {items.map((p: import("@/lib/mock-data").Product) => <ProductTile key={p.slug} product={p} />)}
+              {items.map((p) => <ProductTile key={p.slug} product={p} />)}
             </div>
           </section>
         ) : (
