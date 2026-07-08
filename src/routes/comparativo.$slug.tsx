@@ -1,4 +1,5 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { Fragment } from "react";
 import { ArrowRight, Trophy } from "lucide-react";
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
@@ -69,14 +70,13 @@ function ComparisonPage() {
         {/* Duel cards */}
         <section className="grid md:grid-cols-[1fr_auto_1fr] gap-6 items-stretch">
           {[a, b].map((p, i) => (
-            <>
+            <Fragment key={p.slug}>
               {i === 1 && (
-                <div key="vs" className="hidden md:grid place-items-center">
+                <div className="hidden md:grid place-items-center">
                   <div className="font-display font-extrabold italic text-accent text-6xl leading-none">VS.</div>
                 </div>
               )}
               <Link
-                key={p.slug}
                 to="/produto/$slug"
                 params={{ slug: p.slug }}
                 className="card-lab p-6 md:p-8 rounded-sm group"
@@ -99,7 +99,7 @@ function ComparisonPage() {
                   <div className="font-display font-bold text-lg">{formatBRL(p.priceAvg)}</div>
                 </div>
               </Link>
-            </>
+            </Fragment>
           ))}
         </section>
 
