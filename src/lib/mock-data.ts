@@ -657,6 +657,140 @@ export const articles: Article[] = [
 
 export const guides: Guide[] = [
   {
+    slug: "tcl-50p755-e-boa",
+    question: "A TV TCL 50P755 é boa?",
+    h1: "A TCL 50P755 é boa? Análise completa em 2026",
+    intro:
+      "A TCL 50P755 aparece no topo dos mais vendidos do Mercado Livre há meses. Testamos imagem, sistema Google TV, som e reputação de vendedores para responder se ela realmente vale a pena.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-07-01",
+    productSlugs: ["tcl-50p755"],
+    verdict:
+      "Sim, a TCL 50P755 é boa e é uma das melhores compras de 4K abaixo de R$ 2.500. Ganha da concorrência direta em suporte a Dolby Vision e no sistema Google TV. Perde só em som — resolva com uma soundbar.",
+    faq: [
+      { q: "Vale a pena TCL em 2026?", a: "Vale. A marca cresceu muito no Brasil, tem assistência e as TVs 4K entram no topo de mais vendidos consistentemente." },
+      { q: "Como comprar TCL com segurança no Mercado Livre?", a: "Filtre por vendedores oficiais TCL ou MercadoLíder Platinum, e prefira envio Full para receber com nota fiscal e garantia." },
+    ],
+  },
+  {
+    slug: "samsung-du7700-e-boa",
+    question: "A Samsung DU7700 é boa?",
+    h1: "Samsung DU7700 é boa? Vale a pena em 2026?",
+    intro:
+      "A linha DU7700 é a Samsung 4K mais vendida do Brasil. Analisamos a versão de 50\" que domina o Mercado Livre para responder se ela merece a fama.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-28",
+    productSlugs: ["samsung-du7700-50", "samsung-du7700-43"],
+    verdict:
+      "Sim, a Samsung DU7700 é boa e continua sendo a escolha mais segura da faixa até R$ 3.000. Tizen fluido, marca com assistência ampla e imagem estável. Faltou Dolby Vision — mas esse é o único ponto realmente negativo.",
+    faq: [
+      { q: "Qual a diferença da DU7700 para a DU8000?", a: "A DU8000 tem processador melhor e HDR mais convincente. Se a diferença de preço for menor que R$ 300, prefira a DU8000." },
+      { q: "50 ou 43 polegadas?", a: "50\" é o padrão de sala hoje. 43\" só se for para quarto ou sala muito pequena (<10m²)." },
+    ],
+  },
+  {
+    slug: "lg-ur8750-e-boa",
+    question: "A LG UR8750 é boa?",
+    h1: "LG UR8750 é boa? Análise honesta",
+    intro:
+      "A UR8750 é o principal modelo LED da LG na faixa intermediária. Testamos o webOS 23, o painel de 50\" e o comportamento em streaming e TV aberta.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-25",
+    productSlugs: ["lg-ur8750-50"],
+    verdict:
+      "Sim, a LG UR8750 é boa — e ganha da concorrência no sistema. O webOS 23 continua sendo o mais rápido entre Smart TVs. Para uso pesado em streaming, é a mais confortável do dia a dia.",
+    faq: [
+      { q: "A LG UR8750 é boa para PS5?", a: "É boa para jogar em 4K a 60Hz. Se você quer 120Hz e VRR, precisa subir para uma QNED ou OLED." },
+      { q: "Vale mais que a Samsung DU7700?", a: "Empate técnico. LG ganha no sistema; Samsung ganha em brilho pontual e assistência." },
+    ],
+  },
+  {
+    slug: "philco-ptv50g70-e-boa",
+    question: "A TV Philco 50\" 4K é boa?",
+    h1: "Philco PTV50G70 é boa? Vale o preço?",
+    intro:
+      "A Philco PTV50G70 é a TV 4K de 50\" mais barata do Mercado Livre entre marcas com alguma tradição. Vale o desconto? Testamos.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-22",
+    productSlugs: ["philco-ptv50g70"],
+    verdict:
+      "É boa para o preço. Não compete com Samsung/LG em brilho e acabamento, mas entrega 4K real e Google TV abaixo de R$ 2.000 — algo que nenhuma marca top consegue.",
+    faq: [
+      { q: "TV Philco dura?", a: "Depende do modelo e do lote. Reserve a garantia estendida do Mercado Livre — nessa faixa de preço, ela compensa." },
+      { q: "Vale a pena pagar mais na TCL P755?", a: "Vale, se o orçamento permitir. Você ganha Dolby Vision, melhor brilho e um app menos travado." },
+    ],
+  },
+  {
+    slug: "aoc-roku-tv-e-boa",
+    question: "A AOC Roku TV é boa?",
+    h1: "AOC Roku TV 50\" é boa? Análise do S5195",
+    intro:
+      "A AOC subiu de novo no ranking de vendas por causa da parceria com Roku. É a TV mais simples de usar da faixa — mas vale a pena?",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-18",
+    productSlugs: ["aoc-s5195-50"],
+    verdict:
+      "Sim. Para quem só quer ligar e assistir, é a mais indicada. Roku TV é reconhecidamente o sistema mais direto ao ponto entre Smart TVs.",
+    faq: [
+      { q: "Roku TV recebe atualização?", a: "Sim, o Roku envia atualizações mensais e é conhecido por manter suporte por muitos anos." },
+      { q: "Perde para Google TV em quê?", a: "Em recomendações personalizadas e integração Chromecast. Ganha em velocidade e simplicidade." },
+    ],
+  },
+  {
+    slug: "philips-ambilight-e-boa",
+    question: "A Philips com Ambilight vale a pena?",
+    h1: "Philips 50PUG7908 com Ambilight vale a pena?",
+    intro:
+      "O Ambilight é exclusivo da Philips e transforma a experiência de assistir. Testamos se ele justifica o preço um pouco maior que a concorrência.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-14",
+    productSlugs: ["philips-50pug7908"],
+    verdict:
+      "Vale muito para quem consome filmes e séries em casa. O efeito Ambilight cria imersão que nenhuma outra TV na faixa oferece — e ainda vem com Dolby Vision.",
+    faq: [
+      { q: "Ambilight funciona com qualquer conteúdo?", a: "Sim, ele lê a imagem em tempo real e projeta a cor correspondente na parede — inclusive com jogos e streaming." },
+      { q: "Precisa de parede clara?", a: "Sim. Em paredes escuras o efeito fica sutil demais. Ideal: parede branca ou clara atrás da TV." },
+    ],
+  },
+  {
+    slug: "melhor-tv-ate-2000-reais",
+    question: "Qual a melhor TV até 2.000 reais?",
+    h1: "Melhor TV até R$ 2.000 em 2026",
+    intro:
+      "Nessa faixa a briga é feroz. Selecionamos as três TVs que oferecem 4K, marca reconhecida e o menor risco de arrependimento.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-12",
+    productSlugs: ["philco-ptv50g70", "aoc-s5195-50", "samsung-du7700-43"],
+    verdict:
+      "Até R$ 2.000, a Samsung DU7700 43\" é o melhor conjunto marca + qualidade. Se prioridade for tamanho maior (50\"), vá de Philco ou AOC.",
+    faq: [
+      { q: "É melhor 50\" barata ou 43\" de marca top?", a: "Se a distância até o sofá é maior que 2,5m, prefira 50\". Menos que isso, 43\" de marca top é a compra mais consciente." },
+    ],
+  },
+  {
+    slug: "melhor-tv-ate-3000-reais",
+    question: "Qual a melhor TV até 3.000 reais?",
+    h1: "Melhor TV até R$ 3.000 em 2026",
+    intro:
+      "Faixa premium do custo-benefício. Aqui já cabem Samsung, LG, TCL e Philips com Dolby Vision, Ambilight e sistemas atualizados.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-10",
+    productSlugs: ["philips-50pug7908", "tcl-50p755", "lg-ur8750-50", "samsung-du7700-50"],
+    verdict:
+      "A Philips 50PUG7908 leva pelo Ambilight + Dolby Vision. Empate técnico entre TCL P755, LG UR8750 e Samsung DU7700 — escolha pela marca que você mais confia.",
+    faq: [
+      { q: "Vale esperar Black Friday?", a: "Sim, esses modelos caem entre 15% e 25% em novembro. Se não tem urgência, espera compensa." },
+    ],
+  },
+  {
     slug: "melhor-tv-para-comprar-2026",
     question: "Qual a melhor TV para comprar em 2026?",
     h1: "Qual a melhor TV para comprar em 2026?",
