@@ -1,7 +1,7 @@
 # Netlify build configuration for TechRadar Brasil (TanStack Start + Nitro netlify preset).
 [build]
   command = "bun run build"
-  publish = "dist/client"
+  
 
 [build.environment]
   NODE_VERSION = "20"
