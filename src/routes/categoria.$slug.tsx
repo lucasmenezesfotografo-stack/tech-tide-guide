@@ -69,7 +69,7 @@ function CategoryPage() {
           <section>
             <SectionHeader eyebrow="Mais bem avaliados" title={`Melhores ${category.name.toLowerCase()} testados`} />
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {items.map((p) => <ProductTile key={p.slug} product={p} />)}
+              {items.map((p: import("@/lib/mock-data").Product) => <ProductTile key={p.slug} product={p} />)}
             </div>
           </section>
         ) : (
