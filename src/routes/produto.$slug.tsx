@@ -30,6 +30,9 @@ export const Route = createFileRoute("/produto/$slug")({
       return { meta: [{ title: "Produto não encontrado" }, { name: "robots", content: "noindex" }] };
     }
     const { product } = loaderData;
+    if (!product) {
+      return { meta: [{ title: "Produto — TechRadar Brasil" }, { name: "robots", content: "noindex" }] };
+    }
     const title = `${product.name} — Review completo, nota ${product.score}/10 | TechRadar`;
     const description = product.summary;
     return {
