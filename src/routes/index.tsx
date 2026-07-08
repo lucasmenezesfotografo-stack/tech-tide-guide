@@ -218,7 +218,7 @@ function HomePage() {
                       </div>
                     </div>
                     <a
-                      href={p.affiliateUrl}
+                      href={getAffiliateUrl(p.slug)}
                       target="_blank"
                       rel="sponsored nofollow noopener noreferrer"
                       className="btn-affiliate w-full text-sm"
