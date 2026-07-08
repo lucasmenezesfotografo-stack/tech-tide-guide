@@ -82,12 +82,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "TechRadar Brasil" },
       { name: "theme-color", content: "#0f4c81" },
       { property: "og:site_name", content: "TechRadar Brasil" },
-      { property: "og:title", content: "TechRadar Brasil — Reviews de Eletrônicos" },
-      { property: "og:description", content: "Reviews, guias de compra e comparativos de eletrônicos. Escolha com confiança antes de comprar no Mercado Livre." },
+      { property: "og:title", content: "TechRadar Brasil — Reviews, Comparativos e Rankings de Eletrônicos" },
+      { property: "og:description", content: "A autoridade brasileira em reviews de tecnologia. Testes laboratoriais rigorosos de TVs, smartphones, notebooks, fones e mais — reviews baseados em dados, não em hype." },
       { property: "og:type", content: "website" },
       { property: "og:locale", content: "pt_BR" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@TechRadarBR" },
+      { name: "twitter:title", content: "TechRadar Brasil — Reviews, Comparativos e Rankings de Eletrônicos" },
+      { name: "twitter:description", content: "A autoridade brasileira em reviews de tecnologia. Testes laboratoriais rigorosos de TVs, smartphones, notebooks, fones e mais — reviews baseados em dados, não em hype." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d33a069a-01d2-43c2-9db4-010e727a69b7/id-preview-f813d4cb--34f48845-9eaf-4429-8fc9-55b826d19e4c.lovable.app-1783541644313.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d33a069a-01d2-43c2-9db4-010e727a69b7/id-preview-f813d4cb--34f48845-9eaf-4429-8fc9-55b826d19e4c.lovable.app-1783541644313.png" },
     ],
     links: [
       {
