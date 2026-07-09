@@ -868,15 +868,16 @@ export const guides: Guide[] = [
     question: "Qual a melhor TV até 2.000 reais?",
     h1: "Melhor TV até R$ 2.000 em 2026",
     intro:
-      "Nessa faixa a briga é feroz. Selecionamos as três TVs que oferecem 4K, marca reconhecida e o menor risco de arrependimento.",
+      "Nessa faixa a briga é feroz. Selecionamos as smart TVs que oferecem melhor imagem, marca com assistência no Brasil e o menor risco de arrependimento até R$ 2.000.",
     categorySlug: "smart-tvs",
     categoryName: "Smart TVs",
     updatedAt: "2026-06-12",
-    productSlugs: ["philco-ptv50g70", "aoc-s5195-50", "samsung-du7700-43"],
+    productSlugs: ["lg-ur8750-50", "samsung-du7700-43", "aoc-s5195-50", "samsung-s95c-65"],
     verdict:
-      "Até R$ 2.000, a Samsung DU7700 43\" é o melhor conjunto marca + qualidade. Se prioridade for tamanho maior (50\"), vá de Philco ou AOC.",
+      "Até R$ 2.000, a Hisense 43A4NV é a mais completa (HDR10 + DTS Virtual X). Se quer QLED 50\" mesmo, a HQ QLED é a mais racional. Para quem prioriza marca, a Philco P43VIK Roku entrega tranquilidade.",
     faq: [
-      { q: "É melhor 50\" barata ou 43\" de marca top?", a: "Se a distância até o sofá é maior que 2,5m, prefira 50\". Menos que isso, 43\" de marca top é a compra mais consciente." },
+      { q: "É melhor 50\" barata ou 43\" com mais recursos?", a: "Se a distância até o sofá é maior que 2,5m, prefira 50\". Menos que isso, 43\" com HDR (como a Hisense 43A4NV) entrega mais qualidade percebida." },
+      { q: "QLED barato vale a pena?", a: "Vale, sim. A tecnologia quantum dot entrega cores muito acima de um LED comum, mesmo em marcas de entrada como a HQ." },
     ],
   },
   {
@@ -884,15 +885,16 @@ export const guides: Guide[] = [
     question: "Qual a melhor TV até 3.000 reais?",
     h1: "Melhor TV até R$ 3.000 em 2026",
     intro:
-      "Faixa premium do custo-benefício. Aqui já cabem Samsung, LG, TCL e Philips com Dolby Vision, Ambilight e sistemas atualizados.",
+      "Faixa premium do custo-benefício. Aqui já cabem QLED, Dolby Vision e Google TV das grandes marcas — a briga entre TCL P7L e Samsung DU7700 é a mais quente do momento.",
     categorySlug: "smart-tvs",
     categoryName: "Smart TVs",
     updatedAt: "2026-06-10",
-    productSlugs: ["philips-50pug7908", "tcl-50p755", "lg-ur8750-50", "samsung-du7700-50"],
+    productSlugs: ["philco-ptv50g70", "tcl-50p755", "samsung-du7700-50"],
     verdict:
-      "A Philips 50PUG7908 leva pelo Ambilight + Dolby Vision. Empate técnico entre TCL P755, LG UR8750 e Samsung DU7700 — escolha pela marca que você mais confia.",
+      "A TCL P7L QLED leva pelo painel QLED + Dolby Vision + Google TV nativo. A Samsung DU7700 é a escolha mais segura por causa da rede de assistência.",
     faq: [
       { q: "Vale esperar Black Friday?", a: "Sim, esses modelos caem entre 15% e 25% em novembro. Se não tem urgência, espera compensa." },
+      { q: "QLED ou UHD comum?", a: "Se puder, prefira QLED. O ganho em cores e brilho compensa a diferença de preço, especialmente para conteúdo em HDR." },
     ],
   },
   {
@@ -904,11 +906,11 @@ export const guides: Guide[] = [
     categorySlug: "smart-tvs",
     categoryName: "Smart TVs",
     updatedAt: "2026-06-14",
-    productSlugs: ["sony-a95l-65", "lg-c3-55", "samsung-s95c-65"],
+    productSlugs: ["sony-a95l-65", "philco-ptv50g70", "samsung-du7700-50"],
     verdict:
-      "Para a maioria das pessoas, a LG OLED C3 é o melhor equilíbrio entre preço, qualidade de imagem e recursos para jogos em 2026. Se o orçamento permitir, a Sony A95L entrega a melhor imagem do mercado.",
+      "Para a maioria das pessoas, a TCL P7L QLED 50\" é o melhor equilíbrio entre preço, qualidade de imagem e recursos em 2026. Se quer marca forte, a Samsung 50DU7700. Se o orçamento permitir sem limite, a Sony A95L entrega a melhor imagem do mercado.",
     faq: [
-      { q: "Vale a pena comprar TV OLED em 2026?", a: "Sim, para quem assiste filmes e séries ou joga PS5/Xbox Series X. O preto perfeito e o tempo de resposta seguem imbatíveis. Para ambientes muito claros, uma Mini LED de topo pode ser preferível." },
+      { q: "QLED ou OLED em 2026?", a: "QLED entrega mais brilho e é mais barata; OLED entrega preto perfeito e tempo de resposta imbatível. Para uso misto e orçamento até R$ 5.000, QLED. Para cinema/games premium, OLED." },
       { q: "Quantas polegadas comprar?", a: "Para salas comuns, 55\" resolve muito bem. A partir de 3 metros de distância, 65\" começa a valer a pena." },
       { q: "Onde comprar com segurança?", a: "No Mercado Livre, prefira lojas oficiais das marcas (Sony, LG, Samsung) e verifique se a entrega é feita pelo Mercado Envios Full." },
     ],
@@ -922,7 +924,7 @@ export const guides: Guide[] = [
     categorySlug: "smart-tvs",
     categoryName: "Smart TVs",
     updatedAt: "2026-06-10",
-    productSlugs: ["lg-c3-55"],
+    productSlugs: ["philips-50pug7908", "aoc-s5195-50", "samsung-du7700-43", "samsung-s95c-65"],
     verdict:
       "Se o teto é abaixo de R$ 3.000, priorize resolução 4K, HDR10 e um sistema conhecido (Google TV, webOS ou Roku TV). Fuja de marcas sem suporte no Brasil.",
     faq: [
@@ -939,11 +941,11 @@ export const guides: Guide[] = [
     categorySlug: "smart-tvs",
     categoryName: "Smart TVs",
     updatedAt: "2026-06-08",
-    productSlugs: ["lg-c3-55", "samsung-s95c-65"],
+    productSlugs: ["philco-ptv50g70", "samsung-du7700-50", "sony-a95l-65"],
     verdict:
-      "A LG OLED C3 55\" reina no custo-benefício premium. Para orçamentos menores, procure QLEDs de 55\" da Samsung ou TCL com 120Hz.",
+      "A TCL P7L 50\" QLED é a compra mais racional em custo-benefício. Se puder subir na tela, a Samsung 65LH65 entrega tamanho por preço difícil de bater. Para topo absoluto, Sony A95L.",
     faq: [
-      { q: "OLED de 55\" vale a pena?", a: "Vale, se você consumir filmes/séries e jogar. Para quem só assiste TV aberta, uma QLED entrega mais brilho por menos." },
+      { q: "55\" ou 65\" pelo mesmo preço?", a: "Se distância do sofá é maior que 3m, prefira 65\". Se menor, 55\" com melhor tecnologia (QLED, HDR) entrega mais qualidade percebida." },
     ],
   },
   {
