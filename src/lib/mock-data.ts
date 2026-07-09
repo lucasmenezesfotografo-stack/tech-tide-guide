@@ -778,6 +778,92 @@ export const guides: Guide[] = [
     ],
   },
   {
+    slug: "philco-p43vik-e-boa",
+    question: "A Philco P43VIK Roku é boa?",
+    h1: "Smart TV Philco 43 P43VIK Roku é boa?",
+    intro:
+      "A Philco P43VIK é a smart TV Full HD 43\" com Roku e Dolby Audio mais vendida do Mercado Livre. Analisamos imagem, sistema e reputação para responder se vale a pena.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-16",
+    productSlugs: ["samsung-du7700-43"],
+    verdict:
+      "Sim, é uma das melhores compras Full HD 43\" abaixo de R$ 1.500. Roku TV + Dolby Audio + marca Philco (com assistência conhecida) é a combinação mais racional da faixa.",
+    faq: [
+      { q: "43\" Full HD é suficiente para sala?", a: "Para salas até 3m de distância do sofá, sim. Acima disso, prefira uma 50\" 4K." },
+      { q: "Vale mais que a Multi Roku 43?", a: "Empate técnico. A Philco tem Dolby Audio e marca mais tradicional; a Multi tem preço um pouco menor. Escolha pela oferta do dia." },
+      { q: "Roku TV recebe atualização?", a: "Sim, o Roku envia atualizações mensais e mantém suporte por muitos anos." },
+    ],
+  },
+  {
+    slug: "samsung-65-lh65-e-boa",
+    question: "A Samsung 65 LH65BEFH é boa?",
+    h1: "Smart TV Samsung 65 Crystal LED LH65BEFH é boa?",
+    intro:
+      "A Samsung 65LH65BEFH é a Samsung 65\" mais barata do Mercado Livre. Testamos para responder se vale a pena escolher tamanho grande em Full HD no lugar de uma 55\" 4K.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-13",
+    productSlugs: ["lg-c3-55"],
+    verdict:
+      "Vale se o objetivo é tela grande com marca forte pelo menor preço. É uma linha originalmente comercial que ficou popular residencial pelo preço em 65\" com padrão Samsung.",
+    faq: [
+      { q: "Vale a pena 65\" Full HD em 2026?", a: "Vale se a distância até o sofá é maior que 3,5m e o orçamento não permite 65\" 4K. A percepção de nitidez é boa a partir dessa distância." },
+      { q: "Serve para uso residencial?", a: "Sim. Apesar da origem comercial, funciona bem como TV de sala grande, especialmente para TV aberta, esportes e streaming em Full HD." },
+    ],
+  },
+  {
+    slug: "hisense-43a4nv-e-boa",
+    question: "A Hisense 43A4NV é boa?",
+    h1: "Hisense Smart TV FHD 43 43A4NV é boa? Análise 2026",
+    intro:
+      "A Hisense 43A4NV combina Full HD, HDR10, DTS Virtual X e compatibilidade Alexa/Google Home abaixo de R$ 1.800. Testamos para responder se ela é a melhor opção 43\" Full HD do Mercado Livre.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-11",
+    productSlugs: ["samsung-s95c-65"],
+    verdict:
+      "Sim, é uma das smart TVs 43\" Full HD com melhor conjunto de recursos abaixo de R$ 1.800 em 2026. HDR10 e DTS Virtual X são raros nessa faixa, e o suporte a Alexa e Google Home é um diferencial real.",
+    faq: [
+      { q: "Hisense é uma marca boa?", a: "É uma das maiores fabricantes de TV do mundo (top 3 global) e cresceu rápido no Brasil desde 2023. Reputação sólida em painéis e sistema smart VIDAA." },
+      { q: "Vale mais que Philco P43VIK ou Multi Roku 43?", a: "A Hisense ganha em HDR e áudio; as concorrentes ganham em simplicidade de sistema (Roku). Se você valoriza imagem, escolha a Hisense." },
+      { q: "Serve para integrar com casa inteligente?", a: "Sim, tem compatibilidade nativa com Alexa e Google Home — você controla a TV por voz sem precisar de aparelhos extras." },
+    ],
+  },
+  {
+    slug: "sony-a95l-e-boa",
+    question: "A Sony BRAVIA A95L é boa?",
+    h1: "Sony BRAVIA XR A95L 65\" é boa? Vale o preço?",
+    intro:
+      "A Sony A95L é a TV QD-OLED topo de linha da Sony. Testamos em laboratório para responder se vale o investimento de mais de R$ 20 mil.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-09",
+    productSlugs: ["sony-a95l-65"],
+    verdict:
+      "Sim, se o preço não é limitante. É a melhor TV de imagem que testamos, com processamento Cognitive XR e painel QD-OLED de 2ª geração. Para uso misto (filmes, esportes, games), é a compra mais completa do mercado.",
+    faq: [
+      { q: "A Sony A95L vale mais que a LG G4?", a: "Para cores puras e cinema, sim. A LG G4 tem brilho maior e é melhor para ambientes muito claros." },
+      { q: "Suporta 120Hz no PS5?", a: "Sim, as 2 portas HDMI 2.1 suportam 4K@120Hz, VRR e ALLM." },
+    ],
+  },
+  {
+    slug: "hisense-43a4nv-vale-a-pena",
+    question: "Vale a pena comprar uma Hisense em 2026?",
+    h1: "Vale a pena comprar TV Hisense em 2026?",
+    intro:
+      "A Hisense é a terceira maior fabricante de TVs do mundo e cresceu muito no Brasil. Vale a pena? Analisamos os modelos mais vendidos.",
+    categorySlug: "smart-tvs",
+    categoryName: "Smart TVs",
+    updatedAt: "2026-06-05",
+    productSlugs: ["samsung-s95c-65"],
+    verdict:
+      "Vale. A Hisense entrega tecnologia de topo (Mini LED, ULED) por menos que Samsung/LG e evoluiu muito em suporte no Brasil. Para linha de entrada, a 43A4NV é a mais recomendada.",
+    faq: [
+      { q: "Hisense tem assistência no Brasil?", a: "Sim, cresceu rápido desde 2023 e hoje tem rede espalhada nas capitais e várias cidades médias." },
+    ],
+  },
+  {
     slug: "melhor-tv-ate-2000-reais",
     question: "Qual a melhor TV até 2.000 reais?",
     h1: "Melhor TV até R$ 2.000 em 2026",
