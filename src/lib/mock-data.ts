@@ -616,16 +616,16 @@ export const products: Product[] = [
 export const comparisons: Comparison[] = [
   {
     slug: "sony-a95l-vs-lg-c3",
-    title: "Sony A95L vs LG C3: O duelo dos OLEDs premium",
-    intro: "Testamos as duas OLEDs mais desejadas de 2024 lado a lado em laboratório. Brilho, cor, gaming e áudio — o vencedor não é óbvio.",
+    title: "Sony A95L QD-OLED vs Samsung 65\" LH65: qual escolher?",
+    intro: "De um lado o topo absoluto QD-OLED da Sony. Do outro, a Samsung 65\" mais barata do Mercado Livre. Vale gastar mais no premium ou levar o tamanho pelo preço?",
     productSlugs: ["sony-a95l-65", "lg-c3-55"],
     winnerBy: [
       { criterion: "Brilho de pico", winnerSlug: "sony-a95l-65" },
       { criterion: "Fidelidade de cor", winnerSlug: "sony-a95l-65" },
-      { criterion: "Recursos gaming", winnerSlug: "lg-c3-55" },
+      { criterion: "Preço", winnerSlug: "lg-c3-55" },
       { criterion: "Custo-benefício", winnerSlug: "lg-c3-55" },
       { criterion: "Processamento de imagem", winnerSlug: "sony-a95l-65" },
-      { criterion: "Sistema operacional", winnerSlug: "lg-c3-55" },
+      { criterion: "Tamanho por real gasto", winnerSlug: "lg-c3-55" },
     ],
   },
   {
@@ -647,9 +647,9 @@ export const comparisons: Comparison[] = [
 export const rankings: Ranking[] = [
   {
     slug: "melhores-tvs-2024",
-    title: "As Melhores TVs de 2024",
-    intro: "Ranking laboratorial das TVs premium testadas em 2024 — do topo QD-OLED à melhor custo-benefício.",
-    productSlugs: ["sony-a95l-65", "samsung-s95c-65", "lg-c3-55"],
+    title: "As Melhores TVs de 2026",
+    intro: "Ranking laboratorial das TVs mais vendidas no Mercado Livre em 2026 — do topo QD-OLED à melhor custo-benefício QLED e às opções de entrada Full HD.",
+    productSlugs: ["sony-a95l-65", "philco-ptv50g70", "samsung-du7700-50", "tcl-50p755", "samsung-s95c-65", "lg-ur8750-50"],
   },
   {
     slug: "melhores-celulares-2024",
